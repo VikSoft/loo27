@@ -1,0 +1,354 @@
+<!--
+    
+    Looks like you're trying to cheat! 😄
+    But don't worry, I'm not mad at you. I'm just a simple HTML file with no feelings at all.
+    I mean, no JS here to track your actions and report to the server. Pure HTML and CSS.
+
+    Or just viewing this document on a GitHub page.
+    Don't scroll down as it can reveal the hints for the ZIP-Quest.
+    You don't need them, do you? 😏
+
+    Just pull the repo and open the file locally in your browser.
+    Even if your browser is Vivaldi, it's still a browser! 😄
+
+    BTW, this is a nice ASCII art, isn't it? I stole it from (https://www.asciiart.eu/computers/computers) just now to fill the space
+
+
+                                                   ..,.oooE777999V(;
+                                  ...oooP779090(;''       ''''  I
+                    ...ooB777979V;;''       .....=v}}=}=}=}}v==  5
+               97?(;''     .........< .    . .:.:.:.:.`:;``;;;;;;;;<;;;<;<<<<<<<<<<
+                 b ;           . : .:.:.:.`;;;;;;;;;;;<;;<;<<<<<<<<, I
+                 `,`               . : :.:.:.:.`.`;;;;;;;;;;;;<;<;<<. 5
+                  b ;                    . : .:.:.:.`;;;;;;;;;;;<;<;<: E
+                  `,<                         . . .:.:.:.``;;;;;;;;;;. I
+                   b :                             . . :.:.:.:.:.:.;;;. 5
+                   `>;                                  . .:..:.:.:.`.:  |
+                    b :                                      . . :.:.:.x T
+                    `,;                                          . . .::  E
+                     b :                                               _  !4
+                     `r :                                   __.__,--,;'))))).
+                      b :                         ___...--'; `))))))))' '' `>!9eOc
+                      `r :              __,--:-;;;)))))))))))'' '' ' ' _. -'-'.`!9Eg.
+                       L : . __.--_--:,)))))))))))'' ' '  _. ._.-'-'-'-'\-'\---\/\ ``Qu.
+                       `,: !x;:)))))))) ')'' ' _ _._-.'\'\_\_-'\''-\'_'\-'\'\ -_\'-\-. 95n.
+                        D` ))))'''  _ .___.-_:/-/\/-_\ /-_, /-,\ \-/_\/\,-\_/-\/-/--' ..v<]9o.
+                      __b :<> -_\._/\,- ,_ -\ _/\-\ _-\ -_/-\,\/,-/\_/-_\'\--' .vvvvvvv}v}}x}]NEo.
+                .ooPO%LOCu  `< `/\_ -:\/_/-/,\/,/-,/_,-/\ :_\:_-:__-'' ...vvvvvvvvvvvvxx}vx}}}}==No
+              .oPO'       `y. `< ~-\ _\/\_,- \ , - ,___..--' .......>>vvvvvvvvx>vvvvvvvvvv)v~~~`         iuuuaE'
+  .@tTL'                        `y,  `< .-vvv<<<<<<<<vvvvv=>~~~~`         _uuua'''
+.&P'                              `L,  `>>><<<<><>v~>^` `        _uuug'
+                                      `L,  ~~`          _uuua''
+                                        `L,:    _uuua''
+                                          `LaE''
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIP-Quest hints</title>
+    <style>
+        .spoiler-checkbox {
+            display: none;
+        }
+
+        .spoiler-label {
+            cursor: pointer;
+            color: blue;
+            display: block;
+        }
+
+        .spoiler-content {
+            display: none;
+            margin-left: 20px;
+        }
+
+        .spoiler-checkbox:checked+.spoiler-label+.spoiler-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ZIP-Quest hints</h1>
+    <p>Here are some hints to help you solve the quest.</p>
+    <p><strong>DO NOT READ THEM</strong> until you're completely stuck! Or you passed the level already :)</p>
+    <p>Remember, the goal is to solve the quest without any help.</p>
+    <p>Click on the hints to reveal them.</p>
+    <br />
+    <input type="checkbox" id="hints" class="spoiler-checkbox">
+    <label for="hints" class="spoiler-label">I need some help :(</label>
+    <div class="spoiler-content">
+        <!-- Level 0 -->
+        <input type="checkbox" id="hint0" class="spoiler-checkbox">
+        <label for="hint0" class="spoiler-label">Level 0:</label>
+        <div class="spoiler-content">
+            C'mon!
+        </div>
+
+        <!-- Level 1 -->
+        <input type="checkbox" id="hint1" class="spoiler-checkbox">
+        <label for="hint1" class="spoiler-label">Level 1:</label>
+        <div class="spoiler-content">
+            Naaah! No hints here!
+        </div>
+
+        <!-- Level 2 -->
+        <input type="checkbox" id="hint2" class="spoiler-checkbox">
+        <label for="hint2" class="spoiler-label">Level 2:</label>
+        <div class="spoiler-content">
+            !TNIH
+        </div>
+
+        <!-- Level 3 -->
+        <input type="checkbox" id="hint3" class="spoiler-checkbox">
+        <label for="hint3" class="spoiler-label">Level 3:</label>
+        <div class="spoiler-content">
+            F
+            <input type="checkbox" id="hint3-1" class="spoiler-checkbox">
+            <label for="hint3-1" class="spoiler-label">One more, please...</label>
+            <div class="spoiler-content">
+                FU!
+            </div>
+        </div>
+
+        <!-- Level 4 -->
+        <input type="checkbox" id="hint4" class="spoiler-checkbox">
+        <label for="hint4" class="spoiler-label">Level 4:</label>
+        <div class="spoiler-content">
+            SOS
+        </div>
+
+        <!-- Level 5 -->
+        <input type="checkbox" id="hint5" class="spoiler-checkbox">
+        <label for="hint5" class="spoiler-label">Level 5:</label>
+        <div class="spoiler-content">
+            ¯\_(ツ)_/¯
+            <input type="checkbox" id="hint5-1" class="spoiler-checkbox">
+            <label for="hint5-1" class="spoiler-label">One more, please...</label>
+            <div class="spoiler-content">
+                Mr.Robot Season 4 episodes
+            </div>
+        </div>
+
+        <!-- Level 6 -->
+        <input type="checkbox" id="hint6" class="spoiler-checkbox">
+        <label for="hint6" class="spoiler-label">Level 6:</label>
+        <div class="spoiler-content">
+            Just do the math 😏
+        </div>
+
+        <!-- Level 7 -->
+        <input type="checkbox" id="hint7" class="spoiler-checkbox">
+        <label for="hint7" class="spoiler-label">Level 7:</label>
+        <div class="spoiler-content">
+            I'm not gonna help you with this one!
+        </div>
+
+        <!-- Level 8 -->
+        <input type="checkbox" id="hint8" class="spoiler-checkbox">
+        <label for="hint8" class="spoiler-label">Level 8:</label>
+        <div class="spoiler-content">
+            Catch me if you can 😄
+        </div>
+
+        <!-- Level 9 -->
+        <input type="checkbox" id="hint9" class="spoiler-checkbox">
+        <label for="hint9" class="spoiler-label">Level 9:</label>
+        <div class="spoiler-content">
+            🐂 & 🐄
+        </div>
+
+        <!-- Level 10 -->
+        <input type="checkbox" id="hint10" class="spoiler-checkbox">
+        <label for="hint10" class="spoiler-label">Level 10:</label>
+        <div class="spoiler-content">
+            You won't need this one! But if you do...
+            <input type="checkbox" id="hint10-1" class="spoiler-checkbox">
+            <label for="hint10-1" class="spoiler-label">One more, please...</label>
+            <div class="spoiler-content">
+                <a href="https://xkcd.com/208/" target="_blank">XKCD</a>
+            </div>
+        </div>
+
+        <!-- Level 11 -->
+        <input type="checkbox" id="hint11" class="spoiler-checkbox">
+        <label for="hint11" class="spoiler-label">Level 11:</label>
+        <div class="spoiler-content">
+            You have everything to solve this one!
+            <input type="checkbox" id="hint11-1" class="spoiler-checkbox">
+            <label for="hint11-1" class="spoiler-label">Really?</label>
+            <div class="spoiler-content">
+                It's not a geography quiz at least :D
+            </div>
+        </div>
+
+        <!-- Level 12 -->
+        <input type="checkbox" id="hint12" class="spoiler-checkbox">
+        <label for="hint12" class="spoiler-label">Level 12:</label>
+        <div class="spoiler-content">
+            Our front-end developer solved a similar one so you can do it too!
+        </div>
+
+        <!-- Level 13 -->
+        <input type="checkbox" id="hint13" class="spoiler-checkbox">
+        <label for="hint13" class="spoiler-label">Level 13:</label>
+        <div class="spoiler-content">
+            Singular, lowercase
+        </div>
+
+        <!-- Level 14 -->
+        <input type="checkbox" id="hint14" class="spoiler-checkbox">
+        <label for="hint14" class="spoiler-label">Level 14:</label>
+        <div class="spoiler-content">
+            I ate some pie and it was delicious!
+        </div>
+
+        <!-- Level 15 -->
+        <input type="checkbox" id="hint15" class="spoiler-checkbox">
+        <label for="hint15" class="spoiler-label">Level 15:</label>
+        <div class="spoiler-content">
+            🤗
+        </div>
+
+        <!-- Level 16 -->
+        <input type="checkbox" id="hint16" class="spoiler-checkbox">
+        <label for="hint16" class="spoiler-label">Level 16:</label>
+        <div class="spoiler-content">
+            Just a random fact about me, yep 😊
+        </div>
+
+        <!-- Level 17 -->
+        <input type="checkbox" id="hint17" class="spoiler-checkbox">
+        <label for="hint17" class="spoiler-label">Level 17:</label>
+        <div class="spoiler-content">
+            UR? YOU ARE? YOU'RE?
+        </div>
+
+        <!-- Level 18 -->
+        <input type="checkbox" id="hint18" class="spoiler-checkbox">
+        <label for="hint18" class="spoiler-label">Level 18:</label>
+        <div class="spoiler-content">
+            I love bitwise operations!
+        </div>
+
+        <!-- Level 19 -->
+        <input type="checkbox" id="hint19" class="spoiler-checkbox">
+        <label for="hint19" class="spoiler-label">Level 19:</label>
+        <div class="spoiler-content">
+            Dijkstra's algorithm
+        </div>
+
+        <!-- Level 20 -->
+        <input type="checkbox" id="hint20" class="spoiler-checkbox">
+        <label for="hint20" class="spoiler-label">Level 20:</label>
+        <div class="spoiler-content">
+            DBFTBS
+        </div>
+
+        <!-- Level 21 -->
+        <input type="checkbox" id="hint21" class="spoiler-checkbox">
+        <label for="hint21" class="spoiler-label">Level 21:</label>
+        <div class="spoiler-content">
+            Case matters!
+            <input type="checkbox" id="hint21-1" class="spoiler-checkbox">
+            <label for="hint21-1" class="spoiler-label">What?</label>
+            <div class="spoiler-content">
+                No chemistry here!
+                <input type="checkbox" id="hint21-2" class="spoiler-checkbox">
+                <label for="hint21-2" class="spoiler-label">Open</label>
+                <div class="spoiler-content">
+                    -ing
+                </div>
+            </div>
+        </div>
+
+        <!-- Level 22 -->
+        <input type="checkbox" id="hint22" class="spoiler-checkbox">
+        <label for="hint22" class="spoiler-label">Level 22:</label>
+        <div class="spoiler-content">
+            That's a nice way to send hidden messages BTW!
+            <input type="checkbox" id="hint22-1" class="spoiler-checkbox">
+            <label for="hint22-1" class="spoiler-label">HUH?</label>
+            <div class="spoiler-content">
+                No help for you here! 😄
+            </div>
+        </div>
+
+        <!-- Level 23 -->
+        <input type="checkbox" id="hint23" class="spoiler-checkbox">
+        <label for="hint23" class="spoiler-label">Level 23:</label>
+        <div class="spoiler-content">
+            Just listen carefully!
+        </div>
+
+        <!-- Level 24 -->
+        <input type="checkbox" id="hint24" class="spoiler-checkbox">
+        <label for="hint24" class="spoiler-label">Level 24:</label>
+        <div class="spoiler-content">
+            Lowercase, no spaces, please!
+            <input type="checkbox" id="hint24-1" class="spoiler-checkbox">
+            <label for="hint24-1" class="spoiler-label">One more, please...</label>
+            <div class="spoiler-content">
+                You're a wizard, %username%!
+            </div>
+        </div>
+
+        <!-- Level 25 -->
+        <input type="checkbox" id="hint25" class="spoiler-checkbox">
+        <label for="hint25" class="spoiler-label">Level 25:</label>
+        <div class="spoiler-content">
+            Get some paper sheets and a pen!
+        </div>
+
+        <!-- Level 26 -->
+        <input type="checkbox" id="hint26" class="spoiler-checkbox">
+        <label for="hint26" class="spoiler-label">Level 26:</label>
+        <div class="spoiler-content">
+            It's not a Morse code!
+            <input type="checkbox" id="hint26-1" class="spoiler-checkbox">
+            <label for="hint26-1" class="spoiler-label">One more, please...</label>
+            <div class="spoiler-content">
+                The only esoteric type of things I like!
+            </div>
+        </div>
+
+        <!-- Level 27 -->
+        <input type="checkbox" id="hint27" class="spoiler-checkbox">
+        <label for="hint27" class="spoiler-label">Level 27:</label>
+        <div class="spoiler-content">
+            Use the force, Luke! I mean, Excel!
+            <input type="checkbox" id="hint27-1" class="spoiler-checkbox">
+            <label for="hint27-1" class="spoiler-label">Is it solvable?</label>
+            <div class="spoiler-content">
+                Yes, it is!
+                <input type="checkbox" id="hint27-2" class="spoiler-checkbox">
+                <label for="hint27-2" class="spoiler-label">Have you tried to?</label>
+                <div class="spoiler-content">
+                    Yep. The hardest one so far! But doable!
+                    <input type="checkbox" id="hint27-3" class="spoiler-checkbox">
+                    <label for="hint27-3" class="spoiler-label">Shit...</label>
+                    <div class="spoiler-content">
+                        If you're not 100% sure about the move - don't do it.<br />Check your suggestions and revert if
+                        something is off.<br />I belive in you, I really do!
+                        <input type="checkbox" id="hint27-4" class="spoiler-checkbox">
+                        <label for="hint27-4" class="spoiler-label">But...</label>
+                        <div class="spoiler-content">
+                            I'm not that cruel. You can use some some service to solve it
+                            <input type="checkbox" id="hint27-5" class="spoiler-checkbox">
+                            <label for="hint27-5" class="spoiler-label">Link?</label>
+                            <div class="spoiler-content">
+                                <a href="https://stevocity.me.uk/nonogram/auto" target="_blank">It's a nice one</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
